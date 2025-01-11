@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Input</title>
+</head>
+<body>
+    <div class="container">
+        <h5>Range input between (20 and 100)</h5>
+
+        <!-- write your code here. -->
+        <input type="range" min="20" max="100" id="rangeInput" />
+
+        <div class="value-display" id="valueDisplay">Value: 20</div>
+    </div>
+
+    <script>
+        const rangeInput = document.getElementById('rangeInput');
+        const valueDisplay = document.getElementById('valueDisplay');
+
+        // Update the display when the input value changes
+        rangeInput.addEventListener('input', () => {
+            valueDisplay.textContent = `Value: ${rangeInput.value}`;
+        });
+    </script>
+</body>
+</html>
