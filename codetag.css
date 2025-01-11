@@ -1,0 +1,17 @@
+code {
+    font-size: 20px;
+    background-color: lightgray;
+    padding: 16px;
+    display: block; 
+}
+
+pre {
+    background-color: lightgray; 
+    padding: 16px;
+    font-size: 20px;
+    overflow: auto; 
+}
+
+.codebox {
+    margin-bottom: 20px; 
+}
