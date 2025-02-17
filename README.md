@@ -1,4 +1,5 @@
-# HTML-
-*******   WEBDEV >>>>>>  RELATED PROJECTS *******
-THESE ARE MY PROJECTS PREPARED USING FRONTEND AND ALSO BACKEND 
-I USE HTML,CSS,JS,REACT TO DO MY PROJECTS 
+# HTML Practice Repository
+
+## Description
+
+This repository is dedicated to practicing HTML-related projects and exercises.
